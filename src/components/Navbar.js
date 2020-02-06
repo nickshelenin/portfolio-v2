@@ -17,11 +17,11 @@ class Navbar extends Component {
          <header className="navbar">
             <div className="logo-container">
                <NavLink to="/">
-                  <img src='/img/logo.jpg' alt="" className="logo" />
+                  <img src="/img/logo.jpg" alt="" className="logo" />
                </NavLink>
             </div>
 
-            <ul className="nav-links" style={{ display: this.state.isOpen == true ? "flex" : "none" }}>
+            <ul className="nav-links" style={{ right: this.state.isOpen == true ? "0" : "-100%" }}>
                <NavLink exact to="/" activeClassName="active-navlink">
                   <li>
                      <i className="fas fa-home fa-2x"></i>
@@ -60,7 +60,7 @@ class Navbar extends Component {
             <ul className="navbar__social-links">
                <li>
                   <a href="https://github.com/nickshelenin" target="blank">
-                     <i className="fab fa-github fa-2x"></i>
+                     <i className="fab fa-github"></i>
                   </a>
                </li>
             </ul>

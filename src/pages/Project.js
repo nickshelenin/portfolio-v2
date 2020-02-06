@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Project extends Component {
    render() {
@@ -6,12 +7,18 @@ export class Project extends Component {
       const img = data.img;
       return (
          <div className="page project-page">
+            {/* <div className="backlink">
+               <Link to="/portfolio">
+                  <i class="fas fa-arrow-circle-left"></i>
+               </Link>
+            </div> */}
+
             <div className="project-title-container">
                <h1>{data.website}</h1>
                <p>{data.title}</p>
 
                <div className="project-links">
-                  <a href="" className="project-link project-link--green">
+                  <a href="#" className="project-link project-link--green">
                      visit the website
                   </a>
                   <a href="https://github.com/nickshelenin/proClean" target="blank" className="project-link project-link--red">
@@ -32,6 +39,7 @@ export class Project extends Component {
 
             <div className="tech-sheet-container">
                <h1>Techinal Sheet</h1>
+               <p className="subtitle">Web technologies that have been used in this project</p>
 
                <hr align="left" />
 
