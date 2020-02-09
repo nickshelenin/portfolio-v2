@@ -7,8 +7,8 @@ function Homepage() {
          <div>
             <h1>Hello, my name is Nick Shelenin</h1>
             <p>
-               I'm a web-devloper. Professionally connected with the web development industry and information technology for many
-               years.
+               I'm a web-devloper. Primarily oriented in Front-End development. You can see my projects in the work section that you
+               can navigate to from navbar on the left side
             </p>
 
             <Link to="/contact">

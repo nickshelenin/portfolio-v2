@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import img from "/img/screenshot.png";
 import { Link, BrowserRouter as Router } from "react-router-dom";
+import Footer from "../components/Footer";
 
 class PortfolioPage extends Component {
    render() {
@@ -17,28 +17,30 @@ class PortfolioPage extends Component {
             <div className="projects">
                <Link to="/portfolio/1">
                   <div className="project-card">
-                     <img src='/img/screenshot.png' alt="" />
+                     <img src="/img/screenshot.png" alt="" />
                   </div>
                </Link>
 
                <Link to="/portfolio/2">
                   <div className="project-card">
-                     <img src='/img/screenshot.png' alt="" />
+                     <img src="/img/screenshot.png" alt="" />
                   </div>
                </Link>
 
                <Link to="/portfolio/3">
                   <div className="project-card">
-                     <img src='/img/screenshot.png' alt="" />
+                     <img src="/img/screenshot.png" alt="" />
                   </div>
                </Link>
 
                <Link to="/portfolio/4">
                   <div className="project-card">
-                     <img src='/img/screenshot.png' alt="" />
+                     <img src="/img/screenshot.png" alt="" />
                   </div>
                </Link>
             </div>
+
+            <Footer />
          </div>
       );
    }

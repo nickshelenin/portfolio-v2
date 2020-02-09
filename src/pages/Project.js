@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export class Project extends Component {
    render() {
@@ -18,10 +19,10 @@ export class Project extends Component {
                <p>{data.title}</p>
 
                <div className="project-links">
-                  <a href="#" className="project-link project-link--green">
+                  <a href={data.websiteLink} target="blank" className="project-link project-link--green">
                      visit the website
                   </a>
-                  <a href="https://github.com/nickshelenin/proClean" target="blank" className="project-link project-link--red">
+                  <a href={data.codeLink} target="blank" className="project-link project-link--red">
                      view the code
                   </a>
                </div>
@@ -50,12 +51,7 @@ export class Project extends Component {
                </ul>
             </div>
 
-            <div className="project-email">
-               <p>
-                  Have something to say? Feel free to contact me via my email at{" "}
-                  <span className="email"> nickshelenin@gmail.com </span>
-               </p>
-            </div>
+            <Footer />
          </div>
       );
    }

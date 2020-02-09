@@ -8,8 +8,8 @@ class ContactPage extends Component {
                <h1 className="page-title">Contact me</h1>
 
                <p>
-                  I am interested in freelance opportunities – especially ambitious or large projects. However, if you have other
-                  request or question, don’t hesitate to contact me using below form either.
+                  If you have any questions that you want to discuss with me directly you can use either my Whatsapp or email address
+                  to reach me out. Everything is down below
                </p>
             </div>
 

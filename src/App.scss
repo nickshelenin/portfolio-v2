@@ -193,7 +193,6 @@ a {
 .page {
    width: 90%;
    margin: auto;
-   height: 100vh;
    color: #f4f4f4;
    display: flex;
    flex-direction: column;
@@ -206,7 +205,6 @@ a {
 
    @include tabletPro() {
       width: 50%;
-      margin-top: 10em;
    }
 
    .page-title-container {
@@ -228,6 +226,7 @@ a {
    justify-content: center;
    margin-top: 0;
    text-align: center;
+   height: 100vh;
 
    h1 {
       font-size: 2rem;
@@ -575,23 +574,31 @@ a {
          }
       }
    }
+}
 
-   .project-email {
+.footer {
+   // padding-top: 3em;
+   text-align: center;
+   width: 80%;
+   margin: 0 auto 2em auto;
+   line-height: 1.5em;
+
+   @include tablet {
+      width: 65%;
+      // margin: auto;
+      // margin-top: 4em;
+   }
+
+   @include tabletPro() {
+      width: 60%;
       margin-top: 3em;
-      text-align: center;
+   }
 
-      @include tabletPro {
-         width: 50%;
-         margin: auto;
-         margin-top: 4em;
-      }
+   p {
+      color: #cacaca;
 
-      p {
-         color: #cacaca;
-
-         .email {
-            font-weight: bold;
-         }
+      .email {
+         font-weight: bold;
       }
    }
 }

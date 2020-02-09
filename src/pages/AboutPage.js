@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 function AboutPage() {
    return (
@@ -6,8 +7,8 @@ function AboutPage() {
          <div className="page-title-container">
             <h1 className="page-title">About me</h1>
 
-            <p>Professionally connected with the web development industry and information technology for many years.</p>
-            <p>Check out my articles, React and React Native UI components at the code laboratory.</p>
+            <p>I'm a Front-End web developer. Love building stuff with React on the front-end</p>
+            <p>Currently learning backend with PHP and Laravel</p>
             <p>Feel free to take a look at my latest projects on the web portfolio page. Remotely available UTC−1 to UTC+8</p>
          </div>
 
