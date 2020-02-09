@@ -5,11 +5,13 @@ function Homepage() {
    return (
       <div className="page home-page">
          <div>
-            <h1>Hello, my name is Nick Shelenin</h1>
-            <p>
-               I'm a web-devloper. Primarily oriented in Front-End development. You can see my projects in the work section that you
-               can navigate to from navbar on the left side
-            </p>
+            <p>Hello, I'm</p>
+            <div>
+               {/* I'm a web-devloper. Primarily oriented in Front-End development. You can see my projects in the work section that you
+               can navigate to from navbar on the left side */}
+            </div>
+            <p>A web developer</p>
+
 
             <Link to="/contact">
                <a href="" className="contact-link">
