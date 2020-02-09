@@ -233,11 +233,29 @@ a {
    margin-top: 0;
    text-align: center;
    height: 100vh;
+   // line-height: 0;
+
+   @include tablet {
+      // line-height: 5em;
+   }
+
+   p {
+      font-size: 2rem;
+      margin: .4em 0;
+
+      @include tablet {
+         margin: 1em 0;
+      }
+   }
 
    svg {
-      // width: 60%;
+      width: 90%;
 
-      animation: fill .5s ease forwards 3.5s;
+      @include tabletPro() {
+         width: 70%;
+      }
+
+      animation: fill 0.5s ease forwards 3.5s;
       path {
          &:nth-child(1) {
             stroke-dasharray: 297px;
@@ -300,20 +318,6 @@ a {
             animation: text-animation 2s ease forwards 2.4s;
          }
       }
-   }
-
-   h1 {
-      font-size: 2rem;
-
-      @include tablet() {
-         font-size: 2rem;
-      }
-   }
-
-   p {
-      font-size: 1.2rem;
-      line-height: 1.5em;
-      margin-bottom: 2em;
    }
 
    .contact-link {
