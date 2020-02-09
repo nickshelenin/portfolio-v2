@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Form from "../components/ContactForm";
 
 class ContactPage extends Component {
    render() {
@@ -14,9 +15,7 @@ class ContactPage extends Component {
             </div>
 
             <div className="page-container">
-       
-
-               <div className="contact-links">
+               {/* <div className="contact-links">
                   <div className="contact-link">
                      <i class="fab fa-whatsapp fa-3x" style={{ color: "#25d366" }}></i>
                      <span>+(996)-554-553-550</span>
@@ -25,14 +24,9 @@ class ContactPage extends Component {
                      <i class="fas fa-envelope fa-3x" style={{ color: "#fff" }}></i>
                      <span>nickshelenin@gmail.com</span>
                   </div>
-               </div>
+               </div> */}
 
-               <form action="" method="post" className="contact-form">
-                  <input type="text" placeholder="name" />
-                  <input type="email" placeholder="email" />
-                  <textarea placeholder="message"></textarea>
-                  <button>send</button>
-               </form>
+               <Form />
 
                <div className="social-links">
                   <div>
