@@ -14,12 +14,7 @@ class ContactPage extends Component {
             </div>
 
             <div className="page-container">
-               {/* <form action="" method="post" className="contact-form">
-                  <input type="text" placeholder="name" />
-                  <input type="email" placeholder="email" />
-                  <textarea placeholder="message"></textarea>
-                  <button>send</button>
-               </form> */}
+       
 
                <div className="contact-links">
                   <div className="contact-link">
@@ -31,6 +26,13 @@ class ContactPage extends Component {
                      <span>nickshelenin@gmail.com</span>
                   </div>
                </div>
+
+               <form action="" method="post" className="contact-form">
+                  <input type="text" placeholder="name" />
+                  <input type="email" placeholder="email" />
+                  <textarea placeholder="message"></textarea>
+                  <button>send</button>
+               </form>
 
                <div className="social-links">
                   <div>
