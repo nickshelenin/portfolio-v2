@@ -21,7 +21,7 @@ class Navbar extends Component {
                </NavLink>
             </div>
 
-            <ul className="nav-links" style={{ right: this.state.isOpen == true ? "0" : "-100%" }}>
+            <ul className="nav-links" style={{ right: this.state.isOpen === true ? "0" : "-100%" }}>
                <NavLink exact to="/" activeClassName="active-navlink">
                   <li>
                      <i className="fas fa-home fa-2x"></i>
