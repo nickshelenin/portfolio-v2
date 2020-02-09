@@ -577,7 +577,6 @@ a {
 }
 
 .footer {
-   // padding-top: 3em;
    text-align: center;
    width: 80%;
    margin: 0 auto 2em auto;
@@ -585,8 +584,6 @@ a {
 
    @include tablet {
       width: 65%;
-      // margin: auto;
-      // margin-top: 4em;
    }
 
    @include tabletPro() {
@@ -599,6 +596,7 @@ a {
 
       .email {
          font-weight: bold;
+         color: #fff;
       }
    }
 }

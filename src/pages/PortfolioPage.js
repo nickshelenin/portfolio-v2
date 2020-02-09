@@ -9,8 +9,7 @@ class PortfolioPage extends Component {
             <div className="page-title-container">
                <h1 className="page-title">web developer portfolio</h1>
                <p>
-                  From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. Check out my latest web software
-                  development portfolio projects.
+                 Check out my latest web devlopement project
                </p>
             </div>
 

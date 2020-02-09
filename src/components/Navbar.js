@@ -60,7 +60,7 @@ class Navbar extends Component {
             <ul className="navbar__social-links">
                <li>
                   <a href="https://github.com/nickshelenin" target="blank">
-                     <i className="fab fa-github"></i>
+                     <i className="fab fa-github fa-2x"></i>
                   </a>
                </li>
             </ul>

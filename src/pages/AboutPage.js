@@ -9,7 +9,7 @@ function AboutPage() {
 
             <p>I'm a Front-End web developer. Love building stuff with React on the front-end</p>
             <p>Currently learning backend with PHP and Laravel</p>
-            <p>Feel free to take a look at my latest projects on the web portfolio page. Remotely available UTC−1 to UTC+8</p>
+            <p>Below you can see my primary skills</p>
          </div>
 
          <div className="page-container">
