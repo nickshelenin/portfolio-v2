@@ -246,13 +246,14 @@ a {
 
    .home-title-one {
       display: block;
-      animation: revealOne 1.5s cubic-bezier(0.77, 0, 0.175, 1) ;
+      // transform: translate(100%, 0);
+      // animation: revealOne 1.5s cubic-bezier(0.77, 0, 0.175, 1) .5s;
       // opacity: 0;
    }
 
    .home-title-two {
       display: block;
-      animation: revealTwo 1.5s cubic-bezier(0.77, 0, 0.175, 1) ;
+      // animation: revealTwo 1.5s cubic-bezier(0.77, 0, 0.175, 1) ;
       // opacity: 0;
    }
 

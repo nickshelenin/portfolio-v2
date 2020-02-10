@@ -8,6 +8,22 @@ class Homepage extends React.Component {
          console.log(this.nodes.map(node => node.getTotalLength()));
       };
       findLength();
+
+      gsap.set(".home-title-one", {
+         x: "-100%"
+      });
+      gsap.set(".home-title-two", {
+         x: "100%"
+      });
+
+      gsap.to(".home-title-one", 1, {
+         delay: 2,
+         x: '0%'
+      });
+      gsap.to(".home-title-two", 1, {
+         delay: 2,
+         x: '0%'
+      });
    }
 
    render() {
@@ -138,7 +154,7 @@ class Homepage extends React.Component {
                   />
                </svg>
 
-               <p>
+               <p >
                   <span className="home-title-two">web developer</span>
                </p>
                {/* 
