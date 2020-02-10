@@ -246,12 +246,14 @@ a {
 
    .home-title-one {
       display: block;
-      animation: reveal-one 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+      animation: revealOne 1.5s cubic-bezier(0.77, 0, 0.175, 1) ;
+      // opacity: 0;
    }
 
    .home-title-two {
       display: block;
-      animation: reveal-two 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+      animation: revealTwo 1.5s cubic-bezier(0.77, 0, 0.175, 1) ;
+      // opacity: 0;
    }
 
    svg {
@@ -714,7 +716,7 @@ a {
    }
 }
 
-@keyframes reveal-one {
+@keyframes revealOne {
    0% {
       transform: translate(-100%, 0);
    }
@@ -723,11 +725,13 @@ a {
    }
 }
 
-@keyframes reveal-two {
-   0% {
+@keyframes revealTwo {
+   from {
       transform: translate(100%, 0);
+      // opacity: 0;
    }
-   100% {
+   to {
       transform: translate(0, 0);
+      // opacity: 1;
    }
 }
