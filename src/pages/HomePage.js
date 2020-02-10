@@ -9,21 +9,21 @@ class Homepage extends React.Component {
       };
       findLength();
 
-      gsap.set(".home-title-one", {
-         x: "-100%"
-      });
-      gsap.set(".home-title-two", {
-         x: "100%"
-      });
+      // gsap.set(".home-title-one", {
+      //    x: "-100%"
+      // });
+      // gsap.set(".home-title-two", {
+      //    x: "100%"
+      // });
 
-      gsap.to(".home-title-one", 1, {
-         delay: 2,
-         x: '0%'
-      });
-      gsap.to(".home-title-two", 1, {
-         delay: 2,
-         x: '0%'
-      });
+      // gsap.to(".home-title-one", {
+      //    delay: 2,
+      //    x: "0%"
+      // });
+      // gsap.to(".home-title-two", {
+      //    delay: 2,
+      //    x: "0%"
+      // });
    }
 
    render() {
@@ -32,9 +32,11 @@ class Homepage extends React.Component {
       return (
          <div className="page home-page">
             <div>
-               <p>
-                  <span className="home-title-one"> Hi, I'm</span>
-               </p>
+               <div className="box1">
+                  <p>
+                     <span className="home-title-one"> Hi, I'm</span>
+                  </p>
+               </div>
 
                <svg
                   width="513"
@@ -154,9 +156,11 @@ class Homepage extends React.Component {
                   />
                </svg>
 
-               <p >
-                  <span className="home-title-two">web developer</span>
-               </p>
+               <div className="box2">
+                  <p>
+                     <span className="home-title-two">web developer</span>
+                  </p>
+               </div>
                {/* 
                <Link to="/contact" className="contact-link">
                   contact me
