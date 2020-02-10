@@ -237,10 +237,21 @@ a {
    p {
       font-size: 2rem;
       margin: 0.4em 0;
+      overflow: hidden;
 
       @include tablet {
          margin: 1em 0;
       }
+   }
+
+   .home-title-one {
+      display: block;
+      animation: reveal-one 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+   }
+
+   .home-title-two {
+      display: block;
+      animation: reveal-two 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
    }
 
    svg {
@@ -275,32 +286,32 @@ a {
          &:nth-child(5) {
             stroke-dasharray: 263px;
             stroke-dashoffset: 263px;
-            animation: text-animation 2s ease forwards .4s;
+            animation: text-animation 2s ease forwards 0.4s;
          }
          &:nth-child(6) {
             stroke-dasharray: 272px;
             stroke-dashoffset: 272px;
-            animation: text-animation 2s ease forwards .5s;
+            animation: text-animation 2s ease forwards 0.5s;
          }
          &:nth-child(7) {
             stroke-dasharray: 260px;
             stroke-dashoffset: 260px;
-            animation: text-animation 2s ease forwards .6s;
+            animation: text-animation 2s ease forwards 0.6s;
          }
          &:nth-child(8) {
             stroke-dasharray: 167px;
             stroke-dashoffset: 167px;
-            animation: text-animation 2s ease forwards .7s;
+            animation: text-animation 2s ease forwards 0.7s;
          }
          &:nth-child(9) {
             stroke-dasharray: 260px;
             stroke-dashoffset: 260px;
-            animation: text-animation 2s ease forwards .8s;
+            animation: text-animation 2s ease forwards 0.8s;
          }
          &:nth-child(10) {
             stroke-dasharray: 297px;
             stroke-dashoffset: 297px;
-            animation: text-animation 2s ease forwards .9s;
+            animation: text-animation 2s ease forwards 0.9s;
          }
          &:nth-child(11) {
             stroke-dasharray: 120px;
@@ -700,5 +711,23 @@ a {
    }
    to {
       fill: #fff;
+   }
+}
+
+@keyframes reveal-one {
+   0% {
+      transform: translate(-100%, 0);
+   }
+   100% {
+      transform: translate(0, 0);
+   }
+}
+
+@keyframes reveal-two {
+   0% {
+      transform: translate(100%, 0);
+   }
+   100% {
+      transform: translate(0, 0);
    }
 }

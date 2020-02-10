@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { gsap } from "gsap";
 
 class Homepage extends React.Component {
    componentDidMount() {
       const findLength = () => {
          console.log(this.nodes.map(node => node.getTotalLength()));
       };
-
       findLength();
    }
 
@@ -16,7 +16,9 @@ class Homepage extends React.Component {
       return (
          <div className="page home-page">
             <div>
-               <p>Hi, I'm</p>
+               <p>
+                  <span className="home-title-one"> Hi, I'm</span>
+               </p>
 
                <svg
                   width="513"
@@ -136,7 +138,9 @@ class Homepage extends React.Component {
                   />
                </svg>
 
-               <p>web developer</p>
+               <p>
+                  <span className="home-title-two">web developer</span>
+               </p>
                {/* 
                <Link to="/contact" className="contact-link">
                   contact me
