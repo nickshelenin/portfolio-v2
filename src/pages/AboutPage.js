@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 function AboutPage() {
    return (
@@ -70,6 +71,8 @@ function AboutPage() {
                </ul>
             </div>
          </div>
+
+         <Footer />
       </div>
    );
 }
