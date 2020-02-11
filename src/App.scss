@@ -244,33 +244,33 @@ a {
       }
    }
 
-   // .box1 {
-   //    width: 30%;
-   //    margin: auto;
+   .box1 {
+      width: 30%;
+      margin: auto;
 
-   //    @include desktop() {
-   //       width: 15%;
-   //    }
-   // }
+      @include desktop() {
+         width: 15%;
+      }
+   }
 
-   // .box2 {
-   //    width: 65%;
-   //    margin: auto;
+   .box2 {
+      width: 65%;
+      margin: auto;
 
-   //    @include desktop() {
-   //       width: 35%;
-   //    }
-   // }
+      @include desktop() {
+         width: 35%;
+      }
+   }
 
-   // .home-title-one {
-   //    display: block;
-   //    animation: revealOne 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-   // }
+   .home-title-one {
+      display: block;
+      animation: revealOne 2s cubic-bezier(0.77, 0, 0.175, 1);
+   }
 
-   // .home-title-two {
-   //    display: block;
-   //    animation: revealTwo 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
-   // }
+   .home-title-two {
+      display: block;
+      animation: revealTwo 2s cubic-bezier(0.77, 0, 0.175, 1);
+   }
 
    svg {
       width: 90%;
