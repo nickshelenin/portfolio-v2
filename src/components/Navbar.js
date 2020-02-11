@@ -12,6 +12,14 @@ class Navbar extends Component {
       });
    };
 
+   toggleColor = () => {
+      if (this.state.isOpen === false) {
+         return "#888888";
+      } else {
+         return "#fff";
+      }
+   };
+
    render() {
       return (
          <header className="navbar">
@@ -52,9 +60,9 @@ class Navbar extends Component {
             </ul>
 
             <div className="menu-toggler" onClick={this.handleClick}>
-               <span></span>
-               <span></span>
-               <span></span>
+               <span style={{ background: this.toggleColor() }}></span>
+               <span style={{ background: this.toggleColor() }}></span>
+               <span style={{ background: this.toggleColor() }}></span>
             </div>
 
             <ul className="navbar__social-links">

@@ -1,5 +1,5 @@
 @mixin phone {
-   @media (min-width: 20px) {
+   @media (min-width: 10px) {
       @content;
    }
 }
@@ -89,7 +89,7 @@ a {
          width: 100%;
          height: 5px;
          margin-bottom: 5px;
-         background: #cdcdcd;
+         background: #888888;
       }
    }
 
@@ -113,7 +113,6 @@ a {
       transition: all 300ms;
 
       @include tablet {
-         display: flex !important;
          position: initial;
       }
 
@@ -264,12 +263,12 @@ a {
 
    .home-title-one {
       display: block;
-      animation: revealOne 2s cubic-bezier(0.77, 0, 0.175, 1);
+      animation: revealOne 2.5s cubic-bezier(0.77, 0, 0.175, 1);
    }
 
    .home-title-two {
       display: block;
-      animation: revealTwo 2s cubic-bezier(0.77, 0, 0.175, 1);
+      animation: revealTwo 2.5s cubic-bezier(0.77, 0, 0.175, 1);
    }
 
    svg {
@@ -694,7 +693,7 @@ a {
 .footer {
    text-align: center;
    width: 80%;
-   margin: 0 auto 2em auto;
+   margin: 1em auto;
    line-height: 1.5em;
 
    @include tablet {
