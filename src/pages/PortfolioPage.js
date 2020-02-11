@@ -9,7 +9,7 @@ class PortfolioPage extends Component {
             <div className="page-title-container">
                <h1 className="page-title">web developer portfolio</h1>
                <p>
-                 Check out my latest web devlopement project
+                 Check out my latest web development projects.
                </p>
             </div>
 

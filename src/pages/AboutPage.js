@@ -6,9 +6,9 @@ function AboutPage() {
          <div className="page-title-container">
             <h1 className="page-title">About me</h1>
 
-            <p>I'm a Front-End web developer. Love building stuff with React on the front-end</p>
-            <p>Currently learning backend with PHP and Laravel</p>
-            <p>Below you can see my primary skills</p>
+            <p>I'm a Front-End web developer. Love building stuff with React on the front-end.</p>
+            <p>Currently learning with PHP with Laravel framework.</p>
+            <p>Below you can see my primary skills.</p>
          </div>
 
          <div className="page-container">
