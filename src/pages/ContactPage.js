@@ -10,7 +10,7 @@ class ContactPage extends Component {
 
                <p>
                   If you have any questions that you want to discuss with me directly you can use either my Whatsapp or email address
-                  to reach me out. Everything is down below
+                  to reach me out. Everything is down below.
                </p>
             </div>
 
