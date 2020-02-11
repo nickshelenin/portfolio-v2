@@ -31,11 +31,11 @@ class App extends React.Component {
 
                <Switch>
                   <Route exact path="/" component={HomePage} />
-                  <Route path="/about" component={AboutPage} />
+                  <Route exact path="/about" component={AboutPage} />
                   <Route exact path="/portfolio" component={PortfolioPage} />
-                  <Route path="/contact" component={ContactPage} />
+                  <Route exact path="/contact" component={ContactPage} />
 
-                  <Route path="/portfolio/1">
+                  <Route exact path="/portfolio/1">
                      <Project data={this.state.project1} />
                   </Route>
 
