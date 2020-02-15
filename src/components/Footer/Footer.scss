@@ -1,0 +1,24 @@
+.footer {
+   text-align: center;
+   width: 80%;
+   margin: 1em auto;
+   line-height: 1.5em;
+
+   @include tablet {
+      width: 65%;
+   }
+
+   @include tabletPro() {
+      width: 60%;
+      margin-top: 3em;
+   }
+
+   p {
+      color: #cacaca;
+
+      .email {
+         font-weight: bold;
+         color: #fff;
+      }
+   }
+}
