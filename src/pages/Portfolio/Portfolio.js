@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link, BrowserRouter as Router } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
+import './Portfolio.scss'
+
 class PortfolioPage extends Component {
    render() {
       return (
