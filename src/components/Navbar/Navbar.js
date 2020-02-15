@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import './Navbar.scss';
 
 class Navbar extends Component {
    state = {
@@ -14,9 +15,9 @@ class Navbar extends Component {
 
    toggleColor = () => {
       if (this.state.isOpen === false) {
-         return "#888888";
+         return '#888888';
       } else {
-         return "#fff";
+         return '#fff';
       }
    };
 
@@ -29,7 +30,7 @@ class Navbar extends Component {
                </NavLink>
             </div>
 
-            <ul className="nav-links" style={{ right: this.state.isOpen === true ? "0" : "-100%" }}>
+            <ul className="nav-links" style={{ right: this.state.isOpen === true ? '0' : '-100%' }}>
                <NavLink exact to="/" activeClassName="active-navlink">
                   <li>
                      <i className="fas fa-home fa-2x"></i>

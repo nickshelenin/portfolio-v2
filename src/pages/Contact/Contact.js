@@ -1,5 +1,7 @@
-import React, { Component } from "react";
-import Form from "../components/ContactForm";
+import React, { Component } from 'react';
+import Form from '../../components/Form/Form';
+
+import './Contact.scss';
 
 class ContactPage extends Component {
    render() {
@@ -17,11 +19,11 @@ class ContactPage extends Component {
             <div className="page-container">
                <div className="contact-links">
                   <div className="contact-link">
-                     <i className="fab fa-whatsapp fa-3x" style={{ color: "#25d366" }}></i>
+                     <i className="fab fa-whatsapp fa-3x" style={{ color: '#25d366' }}></i>
                      <span>+(996)-554-553-550</span>
                   </div>
                   <div className="contact-link">
-                     <i className="fas fa-envelope fa-3x" style={{ color: "#fff" }}></i>
+                     <i className="fas fa-envelope fa-3x" style={{ color: '#fff' }}></i>
                      <span>nickshelenin@gmail.com</span>
                   </div>
                </div>
@@ -31,7 +33,7 @@ class ContactPage extends Component {
                <div className="social-links">
                   <div>
                      <a href="https://github.com/nickshelenin" target="blank">
-                        <i className   ="fab fa-github fa-2x"></i>
+                        <i className="fab fa-github fa-2x"></i>
                      </a>
                   </div>
                </div>

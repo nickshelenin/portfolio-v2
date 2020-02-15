@@ -1,6 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { gsap } from "gsap";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { gsap } from 'gsap';
+
+import './Home.scss';
 
 class Homepage extends React.Component {
    componentDidMount() {

@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-// import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+import React, { Component } from 'react';
+import Footer from '../../components/Footer/Footer';
+
+import './Project.scss'
 
 export class Project extends Component {
    render() {
@@ -29,7 +30,7 @@ export class Project extends Component {
             </div>
 
             <div className="project-img">
-               <img src={"/img/" + img} alt="" />
+               <img src={'/img/' + img} alt="" />
             </div>
 
             <div className="about-project-container">

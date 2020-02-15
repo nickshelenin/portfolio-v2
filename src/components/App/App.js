@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Redirect, Switch, Route } from 'react-router-dom';
 
 import Home from '../Home/Home';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import PortfolioPage from './pages/PortfolioPage';
-import ContactPage from './pages/ContactPage';
-import Project from './pages/Project';
-import NotFoundPage from './pages/NotFoundPage';
+import Navbar from '../Navbar/Navbar';
+import HomePage from '../../pages/Home/Home';
+import AboutPage from '../../pages/About/About';
+import PortfolioPage from '../../pages/Portfolio/Portfolio';
+import ContactPage from '../../pages/Contact/Contact';
+import Project from '../../pages/Project/Project';
+import NotFoundPage from '../../pages/NotFound/NotFound';
 
 class App extends React.Component {
    state = {
@@ -25,10 +26,9 @@ class App extends React.Component {
 
    render() {
       return (
-         <Router>
-            <div className="page">
+         <>
+            <Router>
                <Navbar />
-
                <Switch>
                   <Route exact path="/" component={HomePage} />
                   <Route exact path="/about" component={AboutPage} />
@@ -41,8 +41,8 @@ class App extends React.Component {
 
                   <Route to="*" component={NotFoundPage} />
                </Switch>
-            </div>
-         </Router>
+            </Router>
+         </>
       );
    }
 }

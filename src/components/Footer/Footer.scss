@@ -4,11 +4,11 @@
    margin: 1em auto;
    line-height: 1.5em;
 
-   @include tablet {
+   @media only screen and (min-width: 768px) {
       width: 65%;
    }
 
-   @include tabletPro() {
+   @media only screen and (min-width: 1024px) {
       width: 60%;
       margin-top: 3em;
    }
