@@ -1,31 +1,8 @@
-@mixin phone {
-   @media (min-width: 10px) {
-      @content;
-   }
-}
-
-@mixin tablet {
-   @media (min-width: 768px) {
-      @content;
-   }
-}
-
-@mixin tabletPro {
-   @media (min-width: 1024px) {
-      @content;
-   }
-}
-
-@mixin desktop {
-   @media (min-width: 1200px) {
-      @content;
-   }
-}
+@import "../../styles/mixins";
 
 .not-found-page {
    justify-content: center;
    align-items: center;
-//    margin-top: 0;
    height: 70vh;
 
    .not-found-page__card {

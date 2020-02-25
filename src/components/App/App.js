@@ -15,7 +15,7 @@ class App extends React.Component {
          website: "proclean",
          title: "proClean is a cleaning company website",
          img: "screenshot.png",
-         about: "This is a informational website for fake company ProClean. All technologies that have been used in this project listed below.   ",
+         about: "This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.   ",
          techSheet: ["HTML5", "CSS3", "Scss", "JavaScript"],
          websiteLink: "https://nickshelenin.github.io/proClean/",
          codeLink: "https://github.com/nickshelenin/proClean"
