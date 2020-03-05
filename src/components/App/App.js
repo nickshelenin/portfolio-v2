@@ -24,8 +24,7 @@ class App extends React.Component {
          website: "moviefan",
          title: "moviefan - movie searching app based on React",
          img: "project2.png",
-         about:
-            "This is a movie searching app that helps you find information on any movie or tv show including info about cast. The app is built with React and TMDB api for fetching data about movies.",
+         about: "This is a movie searching app that helps you find information on any movie or tv show including info about cast. The app is built with React and TMDB api for fetching data about movies.",
          techSheet: ["React", "Scss", "TMDB api"],
          websiteLink: "https://moviefan.netlify.com",
          codeLink: "https://github.com/nickshelenin/moviefan"
