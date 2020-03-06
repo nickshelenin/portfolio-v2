@@ -22,7 +22,7 @@ class PortfolioPage extends Component {
 
                <Link to='/portfolio/2'>
                   <div className='project-card'>
-                     <img src='/img/project2-min   .png' alt='' />
+                     <img src='/img/project2-min.png' alt='' />
                   </div>
                </Link>
             </div>
