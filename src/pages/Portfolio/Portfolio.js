@@ -16,13 +16,13 @@ class PortfolioPage extends Component {
             <div className='projects'>
                <Link to='/portfolio/1'>
                   <div className='project-card'>
-                     <img src='/img/project1.png' alt='' />
+                     <img src='/img/project1-min.png' alt='' />
                   </div>
                </Link>
 
                <Link to='/portfolio/2'>
                   <div className='project-card'>
-                     <img src='/img/project2.png' alt='' />
+                     <img src='/img/project2-min.png' alt='' />
                   </div>
                </Link>
             </div>
