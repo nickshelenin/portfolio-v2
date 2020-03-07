@@ -17,7 +17,7 @@ class App extends React.Component {
          img: "project1-min.png",
          about: "This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.",
          techSheet: ["HTML", "CSS", "Scss", "JavaScript"],
-         websiteLink: "https://nickshelenin.github.io/proClean/",
+         websiteLink: "https://nickshelenin.github.io/proclean/",
          codeLink: "https://github.com/nickshelenin/proClean"
       },
       project2: {
