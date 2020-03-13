@@ -41,15 +41,12 @@ class App extends React.Component {
                   <Route exact path='/about' component={AboutPage} />
                   <Route exact path='/portfolio' component={PortfolioPage} />
                   <Route exact path='/contact' component={ContactPage} />
-
                   <Route exact path='/portfolio/1'>
                      <Project data={this.state.project1} />
                   </Route>
-
                   <Route exact path='/portfolio/2'>
                      <Project data={this.state.project2} />
                   </Route>
-
                   <Route component={NotFoundPage} />
                </Switch>
             </Router>
