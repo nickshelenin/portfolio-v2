@@ -1,13 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Redirect, Switch, Route } from "react-router-dom";
-
 import Navbar from "../Navbar/Navbar";
-import HomePage from "../../pages/Home/Home";
-import AboutPage from "../../pages/About/About";
-import PortfolioPage from "../../pages/Portfolio/Portfolio";
-import ContactPage from "../../pages/Contact/Contact";
-import Project from "../../pages/Project/Project";
-import NotFoundPage from "../../pages/NotFound/NotFound";
+import HomePage from "../pages/Home/Home";
+import AboutPage from "../pages/About/About";
+import PortfolioPage from "../pages/Portfolio/Portfolio";
+import ContactPage from "../pages/Contact/Contact";
+import ProjectPage from "../pages/Project/Project";
+import NotFoundPage from "../pages/NotFound/NotFound";
 
 class App extends React.Component {
    state = {
@@ -42,10 +41,10 @@ class App extends React.Component {
                   <Route exact path='/portfolio' component={PortfolioPage} />
                   <Route exact path='/contact' component={ContactPage} />
                   <Route exact path='/portfolio/1'>
-                     <Project data={this.state.project1} />
+                     <ProjectPage data={this.state.project1} />
                   </Route>
                   <Route exact path='/portfolio/2'>
-                     <Project data={this.state.project2} />
+                     <ProjectPage data={this.state.project2} />
                   </Route>
                   <Route component={NotFoundPage} />
                </Switch>
