@@ -7,12 +7,11 @@ class Homepage extends React.Component {
     const findLength = () => {
       console.log(this.nodes.map(node => node.getTotalLength()));
     };
-    findLength();
+    // findLength();
   }
 
   render() {
     this.nodes = [];
-
     return (
       <div className='page home-page'>
         <div>

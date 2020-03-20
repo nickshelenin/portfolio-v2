@@ -1,46 +1,46 @@
-@import "../../../styles/mixins";
+@import '../../../styles/mixins';
 
 .about-page {
-   .page-title-container {
-      @include tablet {
-         width: 70%;
-      }
+  .page-title-container {
+    @include tablet {
+      width: 70%;
+    }
 
-      p {
-         @include desktop() {
-            line-height: 1.5em;
-         }
-      }
-   }
-
-   .page-container {
+    p {
       @include desktop() {
-         text-align: left;
+        line-height: 1.5em;
       }
-   }
+    }
+  }
 
-   .skills {
-      @include tablet() {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-gap: 4em;
+  .page-container {
+    @include desktop() {
+      text-align: left;
+    }
+  }
+
+  .skills {
+    @include tablet() {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4em;
+    }
+
+    @include tabletPro() {
+      width: 100%;
+      margin-top: -1em;
+    }
+
+    .skills__list {
+      li {
+        font-size: 1.3rem;
+        margin: 0 0 0.8em 0;
+
+        i {
+          margin-right: 1em;
+          width: 20px;
+        }
       }
-
-      @include tabletPro() {
-         width: 100%;
-         margin-top: -1em;
-      }
-
-      .skills__list {
-         li {
-            font-size: 1.3rem;
-            margin: 0 0 0.8em 0;
-
-            i {
-               margin-right: 1em;
-               width: 20px;
-            }
-         }
-      }
-   }
+    }
+  }
 }
