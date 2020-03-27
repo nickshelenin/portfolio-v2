@@ -37,18 +37,21 @@ class Navbar extends Component {
               <span>home</span>
             </li>
           </NavLink>
+
           <NavLink to='/about' activeClassName='active-navlink'>
             <li>
               <i className='fas fa-user fa-2x'></i>
               <span>about</span>
             </li>
           </NavLink>
+
           <NavLink to='/portfolio' activeClassName='active-navlink'>
             <li>
               <i className='fas fa-briefcase fa-2x'></i>
               <span>work</span>
             </li>
           </NavLink>
+
           <NavLink to='/contact' activeClassName='active-navlink'>
             <li>
               <i className='fas fa-envelope fa-2x'></i>
