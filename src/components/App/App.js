@@ -11,16 +11,6 @@ import NotFoundPage from '../pages/NotFound/NotFound';
 class App extends React.Component {
   state = {
     project1: {
-      website: 'proclean',
-      title: 'proClean is a cleaning company website',
-      img: 'project1-min.png',
-      about:
-        'This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.',
-      techSheet: ['HTML', 'CSS', 'Scss', 'JavaScript'],
-      websiteLink: 'https://nickshelenin.github.io/proclean/',
-      codeLink: 'https://github.com/nickshelenin/proClean'
-    },
-    project2: {
       website: 'moviefan',
       title: 'moviefan - movie searching app based on React',
       img: 'project2-min.png',
@@ -29,6 +19,16 @@ class App extends React.Component {
       techSheet: ['React', 'Scss', 'TMDB api'],
       websiteLink: 'https://moviefan.netlify.com',
       codeLink: 'https://github.com/nickshelenin/moviefan'
+    },
+    project2: {
+      website: 'proclean',
+      title: 'proClean is a cleaning company website',
+      img: 'project1-min.png',
+      about:
+        'This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.',
+      techSheet: ['HTML', 'CSS', 'Scss', 'JavaScript'],
+      websiteLink: 'https://nickshelenin.github.io/proclean/',
+      codeLink: 'https://github.com/nickshelenin/proClean'
     }
   };
 
