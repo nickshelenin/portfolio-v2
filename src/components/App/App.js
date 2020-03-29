@@ -13,7 +13,7 @@ class App extends React.Component {
     project1: {
       website: 'moviefan',
       title: 'moviefan - movie searching app based on React',
-      img: 'project2-min.png',
+      img: 'project1-min.png',
       about:
         'This is a movie searching app that helps you find information on any movie or tv show including info about cast. The app is built with React and TMDB api for fetching data about movies.',
       techSheet: ['React', 'Scss', 'TMDB api'],
@@ -23,7 +23,7 @@ class App extends React.Component {
     project2: {
       website: 'proclean',
       title: 'proClean is a cleaning company website',
-      img: 'project1-min.png',
+      img: 'project2-min.png',
       about:
         'This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.',
       techSheet: ['HTML', 'CSS', 'Scss', 'JavaScript'],
