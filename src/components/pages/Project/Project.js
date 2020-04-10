@@ -6,6 +6,7 @@ export class Project extends Component {
   render() {
     const data = this.props.data;
     const img = data.img;
+    
     return (
       <div className='page project-page'>
         <div className='project-title-container'>
@@ -13,10 +14,10 @@ export class Project extends Component {
           <p>{data.title}</p>
 
           <div className='project-links'>
-            <a href={data.websiteLink} target='blank' className='project-link project-link--green'>
+            <a href={data.websiteLink} target='_blank' className='project-link project-link--green'>
               visit the website
             </a>
-            <a href={data.codeLink} target='blank' className='project-link project-link--red'>
+            <a href={data.codeLink} target='_blank' className='project-link project-link--red'>
               view the code
             </a>
           </div>

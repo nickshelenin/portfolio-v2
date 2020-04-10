@@ -16,9 +16,9 @@ class App extends React.Component {
       img: 'project1-min.png',
       about:
         'This is a movie searching app that helps you find information on any movie or tv show including info about cast. The app is built with React and TMDB api for fetching data about movies.',
-      techSheet: ['React', 'Scss', 'TMDB api'],
+      techSheet: ['React', 'Scss', 'Swiper JS', 'TMDB api'],
       websiteLink: 'https://moviefan.netlify.com',
-      codeLink: 'https://github.com/nickshelenin/moviefan'
+      codeLink: 'https://github.com/nickshelenin/moviefan',
     },
     project2: {
       website: 'proclean',
@@ -26,10 +26,10 @@ class App extends React.Component {
       img: 'project2-min.png',
       about:
         'This is an informational website for fake company ProClean. All technologies that have been used in this project listed below.',
-      techSheet: ['HTML', 'CSS', 'Scss', 'JavaScript'],
+      techSheet: ['HTML', 'CSS', 'Scss', 'JavaScript', 'Swiper JS'],
       websiteLink: 'https://nickshelenin.github.io/proclean/',
-      codeLink: 'https://github.com/nickshelenin/proClean'
-    }
+      codeLink: 'https://github.com/nickshelenin/proClean',
+    },
   };
 
   render() {
